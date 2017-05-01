@@ -1,0 +1,41 @@
+body {
+    background-color: #D3D3D3;
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#mapContainer {
+    position: relative;
+    margin: 5%;
+    top: -10vw;
+}
+
+#pieContainer {
+    height: 800px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.stateInfo {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    margin: 275px;
+}
+
+.stateName {
+    font-weight: normal;
+    font-size: 120px;
+    margin: 0;
+    text-align: center;
+  }
+.stateInfo > span {
+    margin: 0 auto;
+    text-align: center;
+  }

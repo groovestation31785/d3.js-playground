@@ -1,0 +1,19 @@
+.arc text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  /*adds border to SVG shapes*/
+  stroke: #fff;
+}
+
+.arc2 text {
+  font: 10px sans-serif;
+   /*aligns (start-, middle- or end-alignment) a string of text relative to a given point*/
+  text-anchor: middle;
+}
+
+.arc2 path {
+  stroke: #fff;
+}
